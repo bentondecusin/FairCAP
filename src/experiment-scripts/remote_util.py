@@ -106,8 +106,8 @@ def fetch_logs_from_remote(algo_name, timestamp, remote_host, remote_usr: str = 
     tar_file = 'logs.tar'
     tar_file_path = os.path.join(WORKER_OUTPUT_PATH, tar_file)
     # tarball remote file
-    run_remote_cmd_async('tar -C %s -cf %s .' % (WORKER_OUTPUT_PATH,
-                                                 tar_file_path), remote_host, remote_usr)
+    run_remote_cmd_sync('tar -C %s -cf %s .' % (WORKER_OUTPUT_PATH,
+                                                tar_file_path), remote_host, remote_usr)
     # Copy to local
     subprocess.call(["scp", "-r", "-p", '%s@%s:%s' %
                     (remote_usr, remote_host, tar_file_path), local_path])
