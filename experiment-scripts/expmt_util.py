@@ -46,8 +46,6 @@ def run_single_remote_expmt(config):
     """
     remote_host = config["_remote_host"]
     algo_name = config["_model"]["_name"]
-    # Step 0: Kill previous experiment
-    clean_up(config)
 
     # Step1: Attempt to synch codebase; future will be done EVENTUALLY as rsynch always returns a status code. rsynch returns 0 if success, 255 otherwise
     synch_status = synch_repo_at_remote(config)
@@ -60,6 +58,9 @@ def run_single_remote_expmt(config):
         return 1
     else:
         logging.debug("Finished synching the codebase at node %s " % (remote_host))
+
+    # Kill previous experiment
+    clean_up(config)
     # Step 2. Attempt to run code logic
     run_algo_status = run_algorithm(config)
     # Per implementation, `run_algorithm`s return 0 if success, 1 otherwise

@@ -99,7 +99,7 @@ def run_remote_cmd_async(command: str, config: Dict):
 def clone_to_remote(config):
     return run_remote_cmd_sync(
         config=config,
-        command="if cd repo; then git pull; else git clone https://github.com/bentondecusin/FairPrescriptionRules repo; fi",
+        command="sh clone.sh",
     )
 
 
@@ -111,7 +111,7 @@ def cp_local_to_remote(config, local_path, remote_path="~", exclude_paths=[]):
     )
     args = [
         "rsync",
-        "-ar",
+        "-a",
         "-e",
         "ssh",
         local_path,
@@ -167,13 +167,15 @@ def fetch_logs_from_remote(config):
 
 def synch_repo_at_remote(config):
     # Returns a status code: 0 means success; non-0 mean failure
-    return clone_to_remote(config)
-
-    # return cp_local_to_remote(
-    #     config,
-    #     local_path=PROJECT_PATH,
-    #     exclude_paths=["*/__pycache__", "output", "venv", "lib", "include", "bin"],
-    # )
+    if (
+        cp_local_to_remote(
+            config,
+            local_path=os.path.join(PROJECT_PATH, "miscellaneous", "clone.sh"),
+            exclude_paths=["*/__pycache__", "output", "venv", "lib", "include", "bin"],
+        )
+        == 0
+    ):
+        return clone_to_remote(config)
 
 
 def clean_up(config):
