@@ -16,13 +16,12 @@ In this project, we implement 3-step algorithms that generate prescriptions(rule
 
 ## Setup <a name="setup"></a>
 1. Clone this repository:
-   ```
-   git clone https://github.com/bentondecusin/FairPrescriptionRules
-   cd FairPrescriptionRules
-   ```
+```
+git clone https://github.com/bentondecusin/FairPrescriptionRules
+cd FairPrescriptionRules
+```
 You can run the algorithm either locally or **remotely(recommended)**
-2. Local Setup (Skip to Remote setup)
-### Environment
+### Local Setup (Skip to Remote setup if you wish to run the experiment on cloudlab)
 Linux:
 ```
 sudo apt-get update
@@ -41,7 +40,7 @@ virtualenv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
 ```
-### After installing dependencies. Run the sanity test to verify the result
+#### After installing dependencies. Run the sanity test to verify the result
 ```
 cd reproducibility
 sh local_sanity_check.sh
@@ -55,62 +54,55 @@ Elapsed time for group mining: 0.0587611198425293 seconds. 3 groups are found
 Elapsed time for treatment mining: 10.959924936294556 seconds. 3 rules are found
 Elapsed time for Selection: 0.38343214988708496 seconds
 ```
+Under the `FairPrescriptionRules/output/Local\ Sanity\ Test/greedy` directory, the following files can be found:
+- selected_rules.json: rules generated from treatment mining
+- mined_rules.json: rules selected by greedy algorithm
+- experiment_results_greedy.csv: information inlcluding expected utilty, coverage and fairness during the selection process
 
+## Data & Experiment Specification
+### Data
+The datasets we use for evaluations are `German credit` and `StackOverflow`. They can be found in the `data` directory. 
 
+To run the experiment, we need both **data configuration** and **experiment configuration**.
+### A **data configuration** is json file that contains the following field
+1. `_dataset_path`: home path to the dataset and data configurations
+2. `_datatable_path`: local path to the dataframe (in .csv format)
+3. `_dag_path`: path to the causal directed acyclic graph (in .dot format)
+4. `_immutable_attributes`, `_mutable_attributes`: immutbale and mutable (mutally exclusive to immutbale) attributes
+5. `_protected_attributes`, `_protected_values`: protected group, i.e. the individuals whose protected_attributes = protected_values
+6. `_target_outcome`, targeted attributes that the algorithm aims to maxize
+### A **experiment configuration** is json file that contains the following field
+1. `_is_remote`: flag that indicates whether the experiment runs remotely
+2. `_expmt_title`: experiment tile
+3. `_cloudlab_user`, `_cloudlab_postfix`: cloudlab configuration
+4. `_cloudlab_nodes`: array of node names on cloudlab
+5. `_models`: array of models that contains model name, starting script and variants if there is any
 
-## Installation <a name="installation"></a>
+### A model contains the following fields
+1. `_name` (required): name of the model, used in the output directory
+2. `_start` (required): starting script 
+3. `_coverage_constraint` (optional): contains name of the variant (group or rule), threshold, and protected threshold
+3. `_fairness_constraint` (optional): contains name of the variant (group_sp, individual_sp, grouo_bgl, individual_bgl) and threshold
 
-
-
-2. Install Graphviz:
-   ```
-   ```
-
-3. Set up environment variables:
-   ```
-   export CFLAGS="-I$(brew --prefix graphviz)/include"
-   export LDFLAGS="-L$(brew --prefix graphviz)/lib"
-   ```
-
-4. Install pygraphviz:
-   ```
-   pip install pygraphviz
-   ```
-
-5. Install other required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-# Data
-
-The datasets we use for evaluations are German credit and StackOverflow. They can be found in the `data` directory. 
-
+See examples of configuration [here](https://github.com/bentondecusin/FairPrescriptionRules/tree/master/experiment-scripts/experiment-configs/sanity)
 ## Running the Algorithms
 
+Locate to the script directory
+```
+cd FairPrescriptionRules/experiment-scripts
+```
+Then run `run_experiment.py` in the following semantics:  
+```
+python run_experiment.py PATH_TO_DATA_CONFIGURATION PATH_TO_EXPERIMENT_CONFIGURATION
+``` 
+See the section above regarding the specification of data configuration and experiment configuration
+### To reproduce the result from the paper
+```
+cd FairPrescriptionRules/reproducibility
+```
+And execute the corresponding script
+e.g. `sh stackoverflow/so_full.sh`
 
-## Greedy Algorithm Overview
-
-1. Generate grouping patterns using the Apriori algorithm.
-2. For each grouping pattern, find the best treatment that maximizes fairness and effectiveness.
-3. Create Rule objects for each group-treatment pair, calculating utility and protected utility.
-4. Initialize empty solution set and coverage tracking.
-5. While the number of rules is less than the maximum allowed:
-   - For each candidate rule, calculate a score based on:
-      - The rule's utility
-      - Coverage of both protected and unprotected groups
-      - Fairness (balance between overall utility and protected group utility)
-   - Select the rule with the highest score
-   - Add the selected rule to the solution set
-   - Update coverage for both protected and unprotected groups
-6. If coverage thresholds are met, switch focus to improving utility for the protected group:
-   - Select rules that maximize protected utility
-   - Continue until maximum number of rules is reached or no improvement is possible
-7. Calculate final metrics:
-   - Expected utility
-   - Protected expected utility
-   - Overall coverage
-   - Protected group coverage
 
 ## Output
 
