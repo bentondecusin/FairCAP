@@ -5,11 +5,12 @@
   "_immutable_attributes": [
     "Gender",
     "SexualOrientation",
+    "EducationParents",
     "RaceEthnicity",
+    "Age",
+    "YearsCoding",
     "Dependents",
-    "Country",
-    "GDP",
-    "Student"
+    "GDP"
   ],
   "_protected_attributes": "GDP",
   "_protected_values": [
