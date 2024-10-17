@@ -4,6 +4,8 @@
   "_dag_path": "so.dot",
   "_immutable_attributes": [
     "Gender",
+    "SexualOrientation",
+    "RaceEthnicity",
     "Dependents",
     "Country",
     "GDP",
