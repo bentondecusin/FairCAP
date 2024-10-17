@@ -99,7 +99,7 @@ def run_remote_cmd_async(command: str, config: Dict):
 def clone_to_remote(config):
     return run_remote_cmd_sync(
         config=config,
-        command="bash clone.sh > stdout.log",
+        command="bash clone.sh &> stdout.log",
     )
 
 
