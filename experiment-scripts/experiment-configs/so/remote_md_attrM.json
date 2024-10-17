@@ -7,7 +7,7 @@
     "node4",
     "node5"
   ],
-  "_expmt_title": "so_mid_imm_attr",
+  "_expmt_title": "so_mid_mut_attr",
   "_models": [
     {
       "_name": "greedy_no_constraint_midM",
