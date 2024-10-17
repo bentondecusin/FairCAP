@@ -176,6 +176,8 @@ def synch_repo_at_remote(config):
         == 0
     ):
         return clone_to_remote(config)
+    logging.error("Failed to copy clone script to remote")
+    return 1
 
 
 def clean_up(config):
