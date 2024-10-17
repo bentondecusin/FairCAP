@@ -20,6 +20,7 @@
     true
   ],
   "_mutable_attributes": [
+    "HoursComputer",
     "DevType",
     "FormalEducation",
     "UndergradMajor",
