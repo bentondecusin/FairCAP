@@ -4,11 +4,13 @@
   "_dag_path": "so.dot",
   "_immutable_attributes": [
     "Gender",
-    "SexualOrientation",
-    "EducationParents",
     "RaceEthnicity",
     "Age",
-    "GDP"
+    "YearsCoding",
+    "Dependents",
+    "Country",
+    "GDP",
+    "Student"
   ],
   "_protected_attributes": "GDP",
   "_protected_values": [
