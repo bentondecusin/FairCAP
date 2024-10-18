@@ -1,0 +1,5 @@
+coverage constr: None
+fairness constr: None
+Elapsed time for group mining: 0.2175617218017578 seconds. 405 groups are found
+Elapsed time for treatment mining: 49.073293685913086 seconds. 80 rules are found
+Elapsed time for Selection: 38.7761447429657 seconds

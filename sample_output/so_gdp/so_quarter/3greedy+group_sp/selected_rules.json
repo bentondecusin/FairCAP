@@ -1,0 +1,138 @@
+[
+    {
+        "condition": "{'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 16582.76,
+        "protected_utility": 15262.54,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 92.05,
+        "protected_coverage_rate": 94.36,
+        "pvals": {
+            "all": [
+                0.015912343646345643
+            ],
+            "protected": [
+                0.03208774598487817
+            ],
+            "non-protected": [
+                0.11609966174699934
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'No', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 28023.76,
+        "protected_utility": 22140.16,
+        "unprotected_utility": 26877.64,
+        "coverage_rate": 54.46,
+        "protected_coverage_rate": 39.46,
+        "pvals": {
+            "all": [
+                0.002838712307766086
+            ],
+            "protected": [
+                0.02998905683811309
+            ],
+            "non-protected": [
+                0.012131210963489588
+            ]
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '3-5 years'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 45514.94,
+        "protected_utility": 46652.13,
+        "unprotected_utility": 38365.49,
+        "coverage_rate": 13.16,
+        "protected_coverage_rate": 18.53,
+        "pvals": {
+            "all": [
+                0.007097361961851325
+            ],
+            "protected": [
+                0.02293716935135733
+            ],
+            "non-protected": [
+                0.0752388165403605
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'No', 'EducationParents': 'Master\u2019s degree (MA, MS, M.Eng., MBA, etc.)', 'RaceEthnicity': 'White or of European descent', 'Student': 'No'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'HoursComputer': '9 - 12 hours'}",
+        "utility": 41581.85,
+        "protected_utility": 37194.2,
+        "unprotected_utility": 39622.71,
+        "coverage_rate": 10.44,
+        "protected_coverage_rate": 7.59,
+        "pvals": {
+            "all": [
+                0.02862739756139721
+            ],
+            "protected": [
+                0.033473281069522416
+            ],
+            "non-protected": [
+                0.06819895638354363
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Country': 'India'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 21783.05,
+        "protected_utility": 21783.05,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.21,
+        "protected_coverage_rate": 48.55,
+        "pvals": {
+            "all": [
+                0.017403828616804177
+            ],
+            "protected": [
+                0.017403828616804177
+            ],
+            "non-protected": 0.0
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'Dependents': 'No', 'EducationParents': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'SexualOrientation': 'Straight or heterosexual', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '1 - 2 times per week', 'HoursComputer': '9 - 12 hours'}",
+        "utility": 27304.99,
+        "protected_utility": 35361.76,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 14.62,
+        "protected_coverage_rate": 15.08,
+        "pvals": {
+            "all": [
+                0.09469864951660993
+            ],
+            "protected": [
+                0.014149858955569725
+            ],
+            "non-protected": [
+                0.22425115636020312
+            ]
+        }
+    },
+    {
+        "condition": "{'Country': 'India', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 20083.08,
+        "protected_utility": 20083.08,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.32,
+        "protected_coverage_rate": 49.1,
+        "pvals": {
+            "all": [
+                0.031252177526441126
+            ],
+            "protected": [
+                0.031252177526441126
+            ],
+            "non-protected": 0.0
+        }
+    }
+]

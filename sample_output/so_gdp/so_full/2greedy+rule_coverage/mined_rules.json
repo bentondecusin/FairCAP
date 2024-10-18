@@ -1,0 +1,941 @@
+[
+    {
+        "condition": {
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18258.181101137277,
+        "protected_utility": 9834.26,
+        "unprotected_utility": 15944.98,
+        "coverage_rate": 92.41,
+        "protected_coverage_rate": 94.22,
+        "pvals": {
+            "all": [
+                8.710072729853334e-08
+            ],
+            "protected": [
+                0.004392054751924514
+            ],
+            "non-protected": [
+                0.00011411586180466278
+            ]
+        }
+    },
+    {
+        "condition": {
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18020.62130453292,
+        "protected_utility": 9462.38,
+        "unprotected_utility": 15672.74,
+        "coverage_rate": 92.88,
+        "protected_coverage_rate": 94.31,
+        "pvals": {
+            "all": [
+                1.3407797438758846e-07
+            ],
+            "protected": [
+                0.006555685799877023
+            ],
+            "non-protected": [
+                0.00014990714617167135
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19270.203374284305,
+        "protected_utility": 13618.85,
+        "unprotected_utility": 17230.28,
+        "coverage_rate": 77.6,
+        "protected_coverage_rate": 54.73,
+        "pvals": {
+            "all": [
+                1.7440185057392466e-07
+            ],
+            "protected": [
+                0.0014217127568628713
+            ],
+            "non-protected": [
+                3.902247379596352e-05
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23459.440495663483,
+        "protected_utility": 10292.55,
+        "unprotected_utility": 22586.15,
+        "coverage_rate": 52.11,
+        "protected_coverage_rate": 58.24,
+        "pvals": {
+            "all": [
+                1.6655627844033222e-07
+            ],
+            "protected": [
+                0.020059655184693423
+            ],
+            "non-protected": [
+                4.7923294617741724e-05
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'Hobby': 'Yes'}",
+        "utility": 16011.07654166696,
+        "protected_utility": 8359.8,
+        "unprotected_utility": 11769.78,
+        "coverage_rate": 69.72,
+        "protected_coverage_rate": 70.48,
+        "pvals": {
+            "all": [
+                4.756315091343732e-06
+            ],
+            "protected": [
+                0.022256677678794485
+            ],
+            "non-protected": [
+                0.005272586807499158
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18219.68832169476,
+        "protected_utility": 8547.81,
+        "unprotected_utility": 16794.67,
+        "coverage_rate": 83.45,
+        "protected_coverage_rate": 74.0,
+        "pvals": {
+            "all": [
+                6.470724851304325e-07
+            ],
+            "protected": [
+                0.020518241810248784
+            ],
+            "non-protected": [
+                0.0001024148268103303
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18144.124016816102,
+        "protected_utility": 9385.92,
+        "unprotected_utility": 15864.12,
+        "coverage_rate": 87.5,
+        "protected_coverage_rate": 89.36,
+        "pvals": {
+            "all": [
+                2.2724686335003912e-07
+            ],
+            "protected": [
+                0.007278813879184597
+            ],
+            "non-protected": [
+                0.00018942865944815323
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18787.181197934086,
+        "protected_utility": 13730.33,
+        "unprotected_utility": 16419.6,
+        "coverage_rate": 71.97,
+        "protected_coverage_rate": 51.55,
+        "pvals": {
+            "all": [
+                1.0220172590364014e-06
+            ],
+            "protected": [
+                0.002297174792772888
+            ],
+            "non-protected": [
+                0.00017233806702070194
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23550.423215639807,
+        "protected_utility": 10848.96,
+        "unprotected_utility": 21988.45,
+        "coverage_rate": 47.83,
+        "protected_coverage_rate": 55.03,
+        "pvals": {
+            "all": [
+                5.078461477757205e-07
+            ],
+            "protected": [
+                0.013085520770098676
+            ],
+            "non-protected": [
+                0.0001743711528858573
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'Hobby': 'Yes'}",
+        "utility": 15134.534225703974,
+        "protected_utility": 7528.45,
+        "unprotected_utility": 10747.46,
+        "coverage_rate": 63.53,
+        "protected_coverage_rate": 66.08,
+        "pvals": {
+            "all": [
+                3.8047951059620526e-05
+            ],
+            "protected": [
+                0.03907284563458731
+            ],
+            "non-protected": [
+                0.016109076732781596
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17398.258391239477,
+        "protected_utility": 8303.34,
+        "unprotected_utility": 15732.36,
+        "coverage_rate": 77.08,
+        "protected_coverage_rate": 69.73,
+        "pvals": {
+            "all": [
+                4.971648502887678e-06
+            ],
+            "protected": [
+                0.029101061973868844
+            ],
+            "non-protected": [
+                0.0004943083751521631
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18017.000260004177,
+        "protected_utility": 12616.43,
+        "unprotected_utility": 15724.14,
+        "coverage_rate": 72.02,
+        "protected_coverage_rate": 51.77,
+        "pvals": {
+            "all": [
+                2.92481961713719e-06
+            ],
+            "protected": [
+                0.0038482994799373463
+            ],
+            "non-protected": [
+                0.0003385032906552592
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23344.276074747424,
+        "protected_utility": 11724.02,
+        "unprotected_utility": 21918.0,
+        "coverage_rate": 48.4,
+        "protected_coverage_rate": 55.33,
+        "pvals": {
+            "all": [
+                7.051058057434551e-07
+            ],
+            "protected": [
+                0.008478940778436464
+            ],
+            "non-protected": [
+                0.00019148772947621875
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17741.986862643622,
+        "protected_utility": 9066.49,
+        "unprotected_utility": 16088.12,
+        "coverage_rate": 77.68,
+        "protected_coverage_rate": 70.27,
+        "pvals": {
+            "all": [
+                3.131091900059941e-06
+            ],
+            "protected": [
+                0.014579279787159973
+            ],
+            "non-protected": [
+                0.00036605909456093646
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 25754.705381439286,
+        "protected_utility": 16722.42,
+        "unprotected_utility": 23519.36,
+        "coverage_rate": 39.61,
+        "protected_coverage_rate": 31.86,
+        "pvals": {
+            "all": [
+                5.530637476863119e-07
+            ],
+            "protected": [
+                0.001209699522585342
+            ],
+            "non-protected": [
+                8.11100553222092e-05
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19037.651404585937,
+        "protected_utility": 8590.26,
+        "unprotected_utility": 17770.17,
+        "coverage_rate": 54.09,
+        "protected_coverage_rate": 39.49,
+        "pvals": {
+            "all": [
+                1.3339494340419206e-05
+            ],
+            "protected": [
+                0.07079093912832748
+            ],
+            "non-protected": [
+                0.00038347387892099524
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19177.58186649304,
+        "protected_utility": 14495.92,
+        "unprotected_utility": 17480.6,
+        "coverage_rate": 65.78,
+        "protected_coverage_rate": 40.35,
+        "pvals": {
+            "all": [
+                3.134873638268909e-06
+            ],
+            "protected": [
+                0.0013813320285193606
+            ],
+            "non-protected": [
+                0.00014541971692065057
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'Hobby': 'Yes'}",
+        "utility": 13595.074403689141,
+        "protected_utility": 10579.8,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 39.3,
+        "protected_coverage_rate": 39.91,
+        "pvals": {
+            "all": [
+                0.0034116007886827444
+            ],
+            "protected": [
+                0.03257042619459581
+            ],
+            "non-protected": [
+                0.1756849253022366
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 22483.851418648657,
+        "protected_utility": 7672.23,
+        "unprotected_utility": 21869.85,
+        "coverage_rate": 45.11,
+        "protected_coverage_rate": 46.72,
+        "pvals": {
+            "all": [
+                3.817979682787971e-06
+            ],
+            "protected": [
+                0.07115625925868355
+            ],
+            "non-protected": [
+                0.00023807971365938003
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18309.419276364424,
+        "protected_utility": 8323.76,
+        "unprotected_utility": 17154.35,
+        "coverage_rate": 56.13,
+        "protected_coverage_rate": 49.98,
+        "pvals": {
+            "all": [
+                3.934124953602401e-05
+            ],
+            "protected": [
+                0.05847438158600569
+            ],
+            "non-protected": [
+                0.0011526838083482614
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "RaceEthnicity": "White or of European descent",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18295.082197134325,
+        "protected_utility": 12638.49,
+        "unprotected_utility": 15912.15,
+        "coverage_rate": 68.16,
+        "protected_coverage_rate": 49.06,
+        "pvals": {
+            "all": [
+                4.149521795026022e-06
+            ],
+            "protected": [
+                0.005809244264388992
+            ],
+            "non-protected": [
+                0.0004342014720675762
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23822.582283115626,
+        "protected_utility": 12109.24,
+        "unprotected_utility": 22083.64,
+        "coverage_rate": 45.36,
+        "protected_coverage_rate": 52.47,
+        "pvals": {
+            "all": [
+                8.76608623728062e-07
+            ],
+            "protected": [
+                0.0060271877470026965
+            ],
+            "non-protected": [
+                0.0002755072189945863
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17510.009034552582,
+        "protected_utility": 8645.43,
+        "unprotected_utility": 15922.73,
+        "coverage_rate": 73.19,
+        "protected_coverage_rate": 66.58,
+        "pvals": {
+            "all": [
+                7.947396874950356e-06
+            ],
+            "protected": [
+                0.024376629304441188
+            ],
+            "non-protected": [
+                0.0006259909123023878
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "Gender": "Male",
+            "Age": "25 - 34 years old"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 25435.209115300095,
+        "protected_utility": 17440.38,
+        "unprotected_utility": 22424.56,
+        "coverage_rate": 36.5,
+        "protected_coverage_rate": 30.13,
+        "pvals": {
+            "all": [
+                2.5355809671437208e-06
+            ],
+            "protected": [
+                0.0014310292639705974
+            ],
+            "non-protected": [
+                0.000361292430011327
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "RaceEthnicity": "White or of European descent",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19125.572673196948,
+        "protected_utility": 8307.38,
+        "unprotected_utility": 17621.21,
+        "coverage_rate": 49.48,
+        "protected_coverage_rate": 37.0,
+        "pvals": {
+            "all": [
+                3.0401243092217257e-05
+            ],
+            "protected": [
+                0.09872183659139008
+            ],
+            "non-protected": [
+                0.0008115322187828689
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "RaceEthnicity": "White or of European descent",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18280.523249830658,
+        "protected_utility": 14531.39,
+        "unprotected_utility": 16160.44,
+        "coverage_rate": 60.99,
+        "protected_coverage_rate": 38.03,
+        "pvals": {
+            "all": [
+                2.0641805027556807e-05
+            ],
+            "protected": [
+                0.0024026615174135017
+            ],
+            "non-protected": [
+                0.0007740329260020208
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering', 'Hobby': 'Yes'}",
+        "utility": 16085.760962414875,
+        "protected_utility": 10054.67,
+        "unprotected_utility": 12260.91,
+        "coverage_rate": 35.63,
+        "protected_coverage_rate": 37.53,
+        "pvals": {
+            "all": [
+                0.007214354352355913
+            ],
+            "protected": [
+                0.07705473876716262
+            ],
+            "non-protected": [
+                0.09342502350355905
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 21921.23095402593,
+        "protected_utility": 7804.58,
+        "unprotected_utility": 20548.59,
+        "coverage_rate": 41.37,
+        "protected_coverage_rate": 44.12,
+        "pvals": {
+            "all": [
+                1.778371233019137e-05
+            ],
+            "protected": [
+                0.0763528465854038
+            ],
+            "non-protected": [
+                0.001074951469073473
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Student": "No",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17496.529151170704,
+        "protected_utility": 7954.55,
+        "unprotected_utility": 15980.47,
+        "coverage_rate": 50.99,
+        "protected_coverage_rate": 46.76,
+        "pvals": {
+            "all": [
+                0.0001959951065931452
+            ],
+            "protected": [
+                0.0831788657282833
+            ],
+            "non-protected": [
+                0.004302252763778448
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "RaceEthnicity": "White or of European descent",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 25620.918661106683,
+        "protected_utility": 17603.02,
+        "unprotected_utility": 23063.71,
+        "coverage_rate": 36.72,
+        "protected_coverage_rate": 30.35,
+        "pvals": {
+            "all": [
+                2.2572357444650264e-06
+            ],
+            "protected": [
+                0.0010334844370810724
+            ],
+            "non-protected": [
+                0.00026024518490473767
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No",
+            "RaceEthnicity": "White or of European descent",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17884.601183332838,
+        "protected_utility": 15089.55,
+        "unprotected_utility": 15873.51,
+        "coverage_rate": 61.18,
+        "protected_coverage_rate": 38.33,
+        "pvals": {
+            "all": [
+                3.138818215665515e-05
+            ],
+            "protected": [
+                0.0014128459327068987
+            ],
+            "non-protected": [
+                0.000984031939602991
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "SexualOrientation": "Straight or heterosexual",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering', 'Hobby': 'Yes'}",
+        "utility": 14812.473371850661,
+        "protected_utility": 10582.54,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 36.0,
+        "protected_coverage_rate": 37.77,
+        "pvals": {
+            "all": [
+                0.014098234977880368
+            ],
+            "protected": [
+                0.07263065857109967
+            ],
+            "non-protected": [
+                0.13787498880073004
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 22771.11366561275,
+        "protected_utility": 9312.92,
+        "unprotected_utility": 21670.39,
+        "coverage_rate": 41.91,
+        "protected_coverage_rate": 44.56,
+        "pvals": {
+            "all": [
+                8.283205095357135e-06
+            ],
+            "protected": [
+                0.02452030579958658
+            ],
+            "non-protected": [
+                0.0005816903272537295
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17726.293598864795,
+        "protected_utility": 8760.3,
+        "unprotected_utility": 16306.12,
+        "coverage_rate": 51.18,
+        "protected_coverage_rate": 47.14,
+        "pvals": {
+            "all": [
+                0.0001547505456560149
+            ],
+            "protected": [
+                0.04502029846784874
+            ],
+            "non-protected": [
+                0.0035800265701158764
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "Student": "No",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18267.139574812376,
+        "protected_utility": 9067.36,
+        "unprotected_utility": 16819.77,
+        "coverage_rate": 33.89,
+        "protected_coverage_rate": 31.7,
+        "pvals": {
+            "all": [
+                0.0012394463510461888
+            ],
+            "protected": [
+                0.08839518777312462
+            ],
+            "non-protected": [
+                0.01305138359745501
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "RaceEthnicity": "White or of European descent",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17971.438866973986,
+        "protected_utility": 15087.81,
+        "unprotected_utility": 15827.95,
+        "coverage_rate": 57.89,
+        "protected_coverage_rate": 36.32,
+        "pvals": {
+            "all": [
+                5.1985644456261974e-05
+            ],
+            "protected": [
+                0.002343226493382963
+            ],
+            "non-protected": [
+                0.0014755340018782364
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old",
+            "SexualOrientation": "Straight or heterosexual",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering', 'Hobby': 'Yes'}",
+        "utility": 16416.300699883926,
+        "protected_utility": 11077.29,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 33.49,
+        "protected_coverage_rate": 35.71,
+        "pvals": {
+            "all": [
+                0.008175067852626608
+            ],
+            "protected": [
+                0.04977761654803026
+            ],
+            "non-protected": [
+                0.10038325189760747
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Age": "25 - 34 years old",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 22711.80733141063,
+        "protected_utility": 9212.44,
+        "unprotected_utility": 21282.21,
+        "coverage_rate": 39.29,
+        "protected_coverage_rate": 42.29,
+        "pvals": {
+            "all": [
+                1.6793339220360765e-05
+            ],
+            "protected": [
+                0.03382328514898471
+            ],
+            "non-protected": [
+                0.001094447601709422
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17115.774918666124,
+        "protected_utility": 8132.77,
+        "unprotected_utility": 15674.01,
+        "coverage_rate": 47.72,
+        "protected_coverage_rate": 44.45,
+        "pvals": {
+            "all": [
+                0.000453284880822
+            ],
+            "protected": [
+                0.07628577177631835
+            ],
+            "non-protected": [
+                0.00730832057014276
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Age": "25 - 34 years old",
+            "Student": "No",
+            "SexualOrientation": "Straight or heterosexual",
+            "Dependents": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18448.882140862086,
+        "protected_utility": 10967.28,
+        "unprotected_utility": 16423.48,
+        "coverage_rate": 31.02,
+        "protected_coverage_rate": 30.09,
+        "pvals": {
+            "all": [
+                0.0020771305340557787
+            ],
+            "protected": [
+                0.03146716200694283
+            ],
+            "non-protected": [
+                0.023509009089850316
+            ]
+        }
+    }
+]

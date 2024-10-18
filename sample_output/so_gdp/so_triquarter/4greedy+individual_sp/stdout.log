@@ -1,0 +1,5 @@
+coverage constr: None
+fairness constr: {'variant': 'individual_sp', 'threshold': 10000}
+Elapsed time for group mining: 0.6421322822570801 seconds. 402 groups are found
+Elapsed time for treatment mining: 182.22331166267395 seconds. 110 rules are found
+Elapsed time for Selection: 113.65233182907104 seconds

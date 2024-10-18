@@ -1,0 +1,122 @@
+[
+    {
+        "condition": "{'Age': '18 - 24 years old'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 30948.51,
+        "protected_utility": 51231.23,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 19.65,
+        "protected_coverage_rate": 29.07,
+        "pvals": {
+            "all": [
+                0.026909665563149946
+            ],
+            "protected": [
+                0.001152236001286694
+            ],
+            "non-protected": [
+                0.2934738673471599
+            ]
+        }
+    },
+    {
+        "condition": "{'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 16582.76,
+        "protected_utility": 15262.54,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 92.05,
+        "protected_coverage_rate": 94.36,
+        "pvals": {
+            "all": [
+                0.015912343646345643
+            ],
+            "protected": [
+                0.03208774598487817
+            ],
+            "non-protected": [
+                0.11609966174699934
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Dependents': 'No'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 28023.76,
+        "protected_utility": 22140.16,
+        "unprotected_utility": 26877.64,
+        "coverage_rate": 54.46,
+        "protected_coverage_rate": 39.46,
+        "pvals": {
+            "all": [
+                0.002838712307766086
+            ],
+            "protected": [
+                0.02998905683811309
+            ],
+            "non-protected": [
+                0.012131210963489588
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Student': 'No', 'Dependents': 'No', 'YearsCoding': '3-5 years'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 51957.15,
+        "protected_utility": 58472.82,
+        "unprotected_utility": 44733.72,
+        "coverage_rate": 10.67,
+        "protected_coverage_rate": 13.99,
+        "pvals": {
+            "all": [
+                0.004058159335195113
+            ],
+            "protected": [
+                0.02491581138084171
+            ],
+            "non-protected": [
+                0.04456922681794757
+            ]
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'YearsCoding': '3-5 years'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 41192.16,
+        "protected_utility": 42486.33,
+        "unprotected_utility": 33860.93,
+        "coverage_rate": 14.47,
+        "protected_coverage_rate": 19.93,
+        "pvals": {
+            "all": [
+                0.0076034892217121605
+            ],
+            "protected": [
+                0.03246860785343582
+            ],
+            "non-protected": [
+                0.08100424961751407
+            ]
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 16767.75,
+        "protected_utility": 21212.23,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 78.04,
+        "protected_coverage_rate": 70.48,
+        "pvals": {
+            "all": [
+                0.027487148106118665
+            ],
+            "protected": [
+                0.014179662528876069
+            ],
+            "non-protected": [
+                0.14789909225038092
+            ]
+        }
+    }
+]
