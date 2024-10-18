@@ -17,7 +17,7 @@ In this project, we implement 3-step algorithms that generate prescriptions(rule
 ## Setup <a name="setup"></a>
 1. Clone this repository:
 ```
-git clone https://github.com/bentondecusin/FairPrescriptionRules
+git clone https://github.com/USERNAME/FairPrescriptionRules
 cd FairPrescriptionRules
 ```
 You can run the algorithm either locally or **remotely(recommended)**
@@ -84,7 +84,7 @@ To run the experiment, we need both **data configuration** and **experiment conf
 3. `_coverage_constraint` (optional): contains name of the variant (group or rule), threshold, and protected threshold
 3. `_fairness_constraint` (optional): contains name of the variant (group_sp, individual_sp, grouo_bgl, individual_bgl) and threshold
 
-See examples of configuration [here](https://github.com/bentondecusin/FairPrescriptionRules/tree/master/experiment-scripts/experiment-configs/sanity)
+See examples of configuration [here](https://github.com/USERNAME/FairPrescriptionRules/tree/master/experiment-scripts/experiment-configs/sanity)
 ## Running the Algorithms
 
 Locate to the script directory

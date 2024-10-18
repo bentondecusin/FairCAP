@@ -1,5 +1,4 @@
 """
-    Author: Benton Li (cl2597@cornell.edu)
 
     This file contains helper functions for actions related to remote machine,
     including:
