@@ -1,18 +1,6 @@
 # Greedy Fair Prescription Rules Algorithm
+In this project, we implement a 3-step algorithms that generate prescriptions(rules) to increase/decrease the value of an attribute. Meanwhile, we can protecting a specified group by setting a minimum coverage of each rule, or that of a rule set. We can also proctect this group by capping the gap between the difference of benefit protected and non-protected group get. The algorithm can be broken down into 3 steps: group mining, treatment mining and rule selection. The details can be found in the [paper]()
 
-This project implements a greedy algorithm for generating fair prescription rules. It aims to balance utility and fairness in decision-making processes, particularly focusing on protected groups.
-
-# Table of Contents
-1. [Overview](#overview) 
-2. [Setup](#setup)   
-3. [Running Experiments](#experiments)  
-   3.a [Data configuration]()   
-   3.b [Experiment and variants configuration]()
-6. [Replication](#experiments)
-
-## Overview  <a name="overview"></a> 
-
-In this project, we implement 3-step algorithms that generate prescriptions(rules) to increase/decrease the value of an attribute while protecting a specified group. The algorithm can be broken down into 3 steps: group mining, treatment mining and rule selection. The details can be found in the [paper]()
 
 ## Setup <a name="setup"></a>
 1. Clone this repository:
@@ -58,6 +46,45 @@ Under the `FairPrescriptionRules/output/Local\ Sanity\ Test/greedy` directory, t
 - selected_rules.json: rules generated from treatment mining
 - mined_rules.json: rules selected by greedy algorithm
 - experiment_results_greedy.csv: information inlcluding expected utilty, coverage and fairness during the selection process
+
+### Remote Setup on [CloudLab](https://docs.cloudlab.us/getting-started.html)
+Step 0. Get a [CloudLab](https://docs.cloudlab.us/getting-started.html) account for free
+Step 1. Set up remote servers 
+1. Instiantiate an experiment (https://www.cloudlab.us/instantiate.php)
+2. Select the `causal` profile   
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/ea7b7dd6-4d03-4bdb-9364-34042bf1339b">
+3. Specify the number of nodes needed. For example, to run 9 variants of FariCap in parallel, you need 9 nodes.
+   Then Select the `urn:publicid:IDN+utah.cloudlab.us+image+fair-prescrip-PG0:causal` image, which is an Ubuntu image that has all the required packages installed   
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/3fccb68b-0e52-4d78-b717-3cfc093d9674">   
+   Then select the machine. We recommend xl170 in Utah cluster. You can also use m510 or cl6525-25g machines in Utah
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/f8a9f906-64c3-4ace-a6fc-c7b2c932740a">    
+   Then choose an experiment name. For simplicy, use `remote` as experiment name as shown in the example configuration. You need to change the configuration accoridngly.  
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/d1076d6f-87e6-4a6f-8f4f-caa5605197a2">
+   Finally, specified the length of your experiment (e.g. 1 hour is sufficient for running the full stackoverflow dataset with constraints)
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/28aaa261-7aa4-4c2d-9bab-d167597d3e85">   
+   When all the nodes are ready, experiments are ready to run     
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/91f106d5-597c-4bde-8bae-9264bec85465">   
+
+4. (Optional). Run the sanity test to verify the result
+```
+cd reproducibility
+sh remote_sanity_check.sh
+```
+Expected output:
+```
+BEGIN
+logs.tar                                                                    100%   10KB  35.0KB/s   00:00    
+0
+DONE
+```
+In the `FairPrescriptionRules/output/greedy` directory, the following files can be found: 
+- `experiment_results_greedy.csv`
+- `mined_rules.json`
+- `selected_rules.json`
+- `stderr.log`: warnings and errors occured on remote server
+- `stdout.log`: output including execution time break down, number of groupings and number of mined treatments
+
+
 
 ## Data & Experiment Specification
 ### Data
@@ -105,11 +132,23 @@ e.g. `sh stackoverflow/so_full.sh`
 
 
 ## Output
+Output can be found in the output path specified in the configuration. For each model, the following file will be generated
+- `experiment_results_greedy.csv`: information including expected utility, fairness, coverage, during the rule section
+- `mined_rules.json`: rules generated for each grouping pattern
+- `selected_rules.json`: selected rules from the previous step
+- `stderr.log`: warnings and errors occured on remote server
+- `stdout.log`: output including execution time break down, number of groupings and number of mined treatments
 
-Both algorithms will generate output files with their results:
+## Result replicaiton 
+We recommend using CloudLab remote servers. The following guide is based on remote experiment
+To run all 9 possible fairness and coverage variants on stackoverflow:
+```
+cd FairPrescriptionRules/experiment-scripts/reproducibility
+sh stackoverflow/so_full.sh
+```
+You can also customize 
+- Thresholds and variants in `FairPrescriptionRules/experiment-scripts/experiment-configs/so/remote_full.json`
+- Mutable, immutbale, target attributes, protected attributes or protected value in `FairPrescriptionRules/data/stackoverflow/config_full.json`
+- DAG defined in `FairPrescriptionRules/data/stackoverflow/so.dot`
 
-- The greedy algorithm outputs to `experiment_results_greedy.csv`
-- The CauSumX algorithm outputs to `experiment_results_causumx.csv`
-
-These files contain detailed information about the selected rules, their fairness scores, and other relevant metrics.
 
