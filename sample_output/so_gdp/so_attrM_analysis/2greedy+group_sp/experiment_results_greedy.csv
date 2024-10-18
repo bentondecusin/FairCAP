@@ -1,0 +1,5 @@
+k,coverage_rate,protected_coverage_rate,expected_utility,protected_expected_utility,unprotected_expected_utility,fairness_met,coverage_met,execution_time
+1,26.5%,18.099999999999998%,4368.88,2983.48,4749.24,True,True,25.30583357810974
+2,38.87%,35.61%,6564.91,6093.15,6694.43,True,True,25.67602300643921
+3,38.87%,35.61%,6846.26,6093.15,6998.26,True,True,26.131279468536377
+4,38.87%,35.61%,6847.79,6093.15,7000.0,True,True,26.607649564743042

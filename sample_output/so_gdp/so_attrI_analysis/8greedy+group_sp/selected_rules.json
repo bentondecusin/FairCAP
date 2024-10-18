@@ -1,0 +1,302 @@
+[
+    {
+        "condition": "{'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18258.18,
+        "protected_utility": 9834.26,
+        "unprotected_utility": 15944.98,
+        "coverage_rate": 92.41,
+        "protected_coverage_rate": 94.22,
+        "pvals": {
+            "all": [
+                8.710072729853334e-08
+            ],
+            "protected": [
+                0.004392054751924514
+            ],
+            "non-protected": [
+                0.00011411586180466278
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 25754.71,
+        "protected_utility": 16722.42,
+        "unprotected_utility": 23519.36,
+        "coverage_rate": 39.61,
+        "protected_coverage_rate": 31.86,
+        "pvals": {
+            "all": [
+                5.530637476863119e-07
+            ],
+            "protected": [
+                0.001209699522585342
+            ],
+            "non-protected": [
+                8.11100553222092e-05
+            ]
+        }
+    },
+    {
+        "condition": "{'Age': '25 - 34 years old', 'Dependents': 'Yes', 'Student': 'No', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'DevType': 'Back-end developer'}",
+        "utility": 40957.27,
+        "protected_utility": 12180.39,
+        "unprotected_utility": 44009.08,
+        "coverage_rate": 10.67,
+        "protected_coverage_rate": 14.32,
+        "pvals": {
+            "all": [
+                1.774104729909321e-05
+            ],
+            "protected": [
+                0.08992966896512115
+            ],
+            "non-protected": [
+                0.0004130942343644824
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'No', 'Age': '18 - 24 years old', 'Student': 'No'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 31568.71,
+        "protected_utility": 16299.78,
+        "unprotected_utility": 30997.63,
+        "coverage_rate": 11.25,
+        "protected_coverage_rate": 14.24,
+        "pvals": {
+            "all": [
+                0.0003679591165162253
+            ],
+            "protected": [
+                0.028115820912741882
+            ],
+            "non-protected": [
+                0.006741558790198176
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Dependents': 'No', 'YearsCoding': '6-8 years'}",
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 34202.69,
+        "protected_utility": 20694.35,
+        "unprotected_utility": 31008.19,
+        "coverage_rate": 12.91,
+        "protected_coverage_rate": 9.97,
+        "pvals": {
+            "all": [
+                0.0002586210931210677
+            ],
+            "protected": [
+                0.07218330445858616
+            ],
+            "non-protected": [
+                0.0036505119629974448
+            ]
+        }
+    },
+    {
+        "condition": "{'Age': '25 - 34 years old'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23459.44,
+        "protected_utility": 10292.55,
+        "unprotected_utility": 22586.15,
+        "coverage_rate": 52.11,
+        "protected_coverage_rate": 58.24,
+        "pvals": {
+            "all": [
+                1.6655627844033222e-07
+            ],
+            "protected": [
+                0.020059655184693423
+            ],
+            "non-protected": [
+                4.7923294617741724e-05
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Dependents': 'Yes'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 23995.49,
+        "protected_utility": 31296.95,
+        "unprotected_utility": 19981.21,
+        "coverage_rate": 23.47,
+        "protected_coverage_rate": 15.17,
+        "pvals": {
+            "all": [
+                0.0004911117084757906
+            ],
+            "protected": [
+                0.0008072106367366659
+            ],
+            "non-protected": [
+                0.00919719063424436
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '3-5 years', 'Student': 'No', 'Dependents': 'No', 'Gender': 'Male'}",
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 34660.0,
+        "protected_utility": 11586.74,
+        "unprotected_utility": 48641.47,
+        "coverage_rate": 10.13,
+        "protected_coverage_rate": 14.49,
+        "pvals": {
+            "all": [
+                0.00021070868968547273
+            ],
+            "protected": [
+                0.08599699735866981
+            ],
+            "non-protected": [
+                0.00020114016197023596
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'YearsCoding': '9-11 years', 'Gender': 'Male'}",
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'DevType': 'Back-end developer'}",
+        "utility": 31353.97,
+        "protected_utility": 17987.35,
+        "unprotected_utility": 28323.66,
+        "coverage_rate": 10.76,
+        "protected_coverage_rate": 7.9,
+        "pvals": {
+            "all": [
+                0.00035414467097977617
+            ],
+            "protected": [
+                0.09212014396321924
+            ],
+            "non-protected": [
+                0.004486491048472276
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'No', 'Age': '18 - 24 years old'}",
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24507.31,
+        "protected_utility": 11801.55,
+        "unprotected_utility": 36986.03,
+        "coverage_rate": 18.47,
+        "protected_coverage_rate": 25.36,
+        "pvals": {
+            "all": [
+                0.0008071510024710647
+            ],
+            "protected": [
+                0.027394269159966858
+            ],
+            "non-protected": [
+                0.00032649017085409316
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'Yes'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24252.47,
+        "protected_utility": 20113.26,
+        "unprotected_utility": 21533.48,
+        "coverage_rate": 30.22,
+        "protected_coverage_rate": 29.42,
+        "pvals": {
+            "all": [
+                7.934311089162351e-05
+            ],
+            "protected": [
+                0.0028272258154550577
+            ],
+            "non-protected": [
+                0.0033034703407904178
+            ]
+        }
+    },
+    {
+        "condition": "{'Age': '25 - 34 years old', 'Dependents': 'Yes', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'DevType': 'Back-end developer'}",
+        "utility": 38053.53,
+        "protected_utility": 23341.24,
+        "unprotected_utility": 36218.8,
+        "coverage_rate": 12.16,
+        "protected_coverage_rate": 17.45,
+        "pvals": {
+            "all": [
+                1.8085105413747566e-05
+            ],
+            "protected": [
+                0.006791317160496679
+            ],
+            "non-protected": [
+                0.0018826671496054155
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '3-5 years', 'Dependents': 'No'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24597.55,
+        "protected_utility": 16946.75,
+        "unprotected_utility": 23810.48,
+        "coverage_rate": 16.57,
+        "protected_coverage_rate": 23.99,
+        "pvals": {
+            "all": [
+                0.00287248996217899
+            ],
+            "protected": [
+                0.007121199168900293
+            ],
+            "non-protected": [
+                0.0348524664307358
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '3-5 years', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24438.99,
+        "protected_utility": 13737.21,
+        "unprotected_utility": 26000.58,
+        "coverage_rate": 17.66,
+        "protected_coverage_rate": 28.08,
+        "pvals": {
+            "all": [
+                0.001738207482218742
+            ],
+            "protected": [
+                0.012381311858035336
+            ],
+            "non-protected": [
+                0.019760164974996566
+            ]
+        }
+    },
+    {
+        "condition": "{'Age': '18 - 24 years old', 'Gender': 'Male'}",
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24322.94,
+        "protected_utility": 12012.46,
+        "unprotected_utility": 22335.61,
+        "coverage_rate": 18.38,
+        "protected_coverage_rate": 27.45,
+        "pvals": {
+            "all": [
+                0.00023432936542330996
+            ],
+            "protected": [
+                0.020557299475343536
+            ],
+            "non-protected": [
+                0.013263629631579062
+            ]
+        }
+    }
+]

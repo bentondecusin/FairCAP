@@ -1,0 +1,618 @@
+[
+    {
+        "condition": {
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18258.181101137277,
+        "protected_utility": 9834.26,
+        "unprotected_utility": 15944.98,
+        "coverage_rate": 92.41,
+        "protected_coverage_rate": 94.22,
+        "pvals": {
+            "all": [
+                8.710072729853334e-08
+            ],
+            "protected": [
+                0.004392054751924514
+            ],
+            "non-protected": [
+                0.00011411586180466278
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19270.203374284305,
+        "protected_utility": 13618.85,
+        "unprotected_utility": 17230.28,
+        "coverage_rate": 77.6,
+        "protected_coverage_rate": 54.73,
+        "pvals": {
+            "all": [
+                1.7440185057392466e-07
+            ],
+            "protected": [
+                0.0014217127568628713
+            ],
+            "non-protected": [
+                3.902247379596352e-05
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 22163.601783524544,
+        "protected_utility": 13447.36,
+        "unprotected_utility": 22468.9,
+        "coverage_rate": 19.73,
+        "protected_coverage_rate": 30.24,
+        "pvals": {
+            "all": [
+                0.0032611449777581306
+            ],
+            "protected": [
+                0.012254103755638356
+            ],
+            "non-protected": [
+                0.033762253196026715
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "6-8 years"
+        },
+        "treatment": "{'Exercise': '1 - 2 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 18019.538167847873,
+        "protected_utility": 10864.19,
+        "unprotected_utility": 18157.8,
+        "coverage_rate": 21.17,
+        "protected_coverage_rate": 25.25,
+        "pvals": {
+            "all": [
+                0.007342262045825035
+            ],
+            "protected": [
+                0.07407625062335682
+            ],
+            "non-protected": [
+                0.0347486909822314
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "9-11 years"
+        },
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'Hobby': 'Yes'}",
+        "utility": 13871.144281084795,
+        "protected_utility": 28862.43,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 14.56,
+        "protected_coverage_rate": 14.17,
+        "pvals": {
+            "all": [
+                0.03799438187761743
+            ],
+            "protected": [
+                0.0006945358603083954
+            ],
+            "non-protected": [
+                0.5861878120269643
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Country": "India"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 12331.476464349795,
+        "protected_utility": 12331.48,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.74,
+        "protected_coverage_rate": 49.86,
+        "pvals": {
+            "all": [
+                0.004733361158644203
+            ],
+            "protected": [
+                0.004733361158644203
+            ],
+            "non-protected": 0.0
+        }
+    },
+    {
+        "condition": {
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18219.68832169476,
+        "protected_utility": 8547.81,
+        "unprotected_utility": 16794.67,
+        "coverage_rate": 83.45,
+        "protected_coverage_rate": 74.0,
+        "pvals": {
+            "all": [
+                6.470724851304325e-07
+            ],
+            "protected": [
+                0.020518241810248784
+            ],
+            "non-protected": [
+                0.0001024148268103303
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "Yes, full-time"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17094.649013164948,
+        "protected_utility": 20536.43,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.96,
+        "protected_coverage_rate": 18.16,
+        "pvals": {
+            "all": [
+                0.04280527529808948
+            ],
+            "protected": [
+                0.024635286836699286
+            ],
+            "non-protected": [
+                0.3548131499872881
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18787.181197934086,
+        "protected_utility": 13730.33,
+        "unprotected_utility": 16419.6,
+        "coverage_rate": 71.97,
+        "protected_coverage_rate": 51.55,
+        "pvals": {
+            "all": [
+                1.0220172590364014e-06
+            ],
+            "protected": [
+                0.002297174792772888
+            ],
+            "non-protected": [
+                0.00017233806702070194
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 24438.98642914441,
+        "protected_utility": 13737.21,
+        "unprotected_utility": 26000.58,
+        "coverage_rate": 17.66,
+        "protected_coverage_rate": 28.08,
+        "pvals": {
+            "all": [
+                0.001738207482218742
+            ],
+            "protected": [
+                0.012381311858035336
+            ],
+            "non-protected": [
+                0.019760164974996566
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "6-8 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '1 - 2 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 20886.201088781105,
+        "protected_utility": 12221.97,
+        "unprotected_utility": 22537.21,
+        "coverage_rate": 19.53,
+        "protected_coverage_rate": 23.96,
+        "pvals": {
+            "all": [
+                0.003089766500250062
+            ],
+            "protected": [
+                0.049445661085799085
+            ],
+            "non-protected": [
+                0.013732393785200218
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "9-11 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'Hobby': 'Yes'}",
+        "utility": 12977.476716365316,
+        "protected_utility": 15955.23,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 13.66,
+        "protected_coverage_rate": 13.47,
+        "pvals": {
+            "all": [
+                0.060002273075466094
+            ],
+            "protected": [
+                0.030731660570879286
+            ],
+            "non-protected": [
+                0.5446029931973505
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Country": "India",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 12002.1256132112,
+        "protected_utility": 12002.13,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.09,
+        "protected_coverage_rate": 46.85,
+        "pvals": {
+            "all": [
+                0.00836263163735381
+            ],
+            "protected": [
+                0.00836263163735381
+            ],
+            "non-protected": 0.0
+        }
+    },
+    {
+        "condition": {
+            "Gender": "Male",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17398.258391239477,
+        "protected_utility": 8303.34,
+        "unprotected_utility": 15732.36,
+        "coverage_rate": 77.08,
+        "protected_coverage_rate": 69.73,
+        "pvals": {
+            "all": [
+                4.971648502887678e-06
+            ],
+            "protected": [
+                0.029101061973868844
+            ],
+            "non-protected": [
+                0.0004943083751521631
+            ]
+        }
+    },
+    {
+        "condition": {
+            "Student": "Yes, full-time",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 20004.95902411019,
+        "protected_utility": 23329.59,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 10.16,
+        "protected_coverage_rate": 17.07,
+        "pvals": {
+            "all": [
+                0.018904824423233095
+            ],
+            "protected": [
+                0.005209129538638825
+            ],
+            "non-protected": [
+                0.26330188875814936
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 15747.644113781556,
+        "protected_utility": 11618.6,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 13.88,
+        "protected_coverage_rate": 15.31,
+        "pvals": {
+            "all": [
+                0.062231134106229435
+            ],
+            "protected": [
+                0.08656195899518813
+            ],
+            "non-protected": [
+                0.16819720090109364
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "6-8 years",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 22480.380628678788,
+        "protected_utility": 17654.7,
+        "unprotected_utility": 20041.83,
+        "coverage_rate": 15.64,
+        "protected_coverage_rate": 12.76,
+        "pvals": {
+            "all": [
+                0.006333327602991343
+            ],
+            "protected": [
+                0.042052071432723916
+            ],
+            "non-protected": [
+                0.03657081734148458
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "9-11 years",
+            "RaceEthnicity": "White or of European descent"
+        },
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'DevType': 'Back-end developer', 'Hobby': 'Yes'}",
+        "utility": 26300.991730182723,
+        "protected_utility": 24845.82,
+        "unprotected_utility": 21438.23,
+        "coverage_rate": 11.45,
+        "protected_coverage_rate": 8.21,
+        "pvals": {
+            "all": [
+                0.004644824904102399
+            ],
+            "protected": [
+                0.03262328267798327
+            ],
+            "non-protected": [
+                0.040788412912438274
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19177.58186649304,
+        "protected_utility": 14495.92,
+        "unprotected_utility": 17480.6,
+        "coverage_rate": 65.78,
+        "protected_coverage_rate": 40.35,
+        "pvals": {
+            "all": [
+                3.134873638268909e-06
+            ],
+            "protected": [
+                0.0013813320285193606
+            ],
+            "non-protected": [
+                0.00014541971692065057
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 27670.290503318465,
+        "protected_utility": 19033.77,
+        "unprotected_utility": 31006.45,
+        "coverage_rate": 14.09,
+        "protected_coverage_rate": 20.26,
+        "pvals": {
+            "all": [
+                0.002838467295084633
+            ],
+            "protected": [
+                0.005074966310146468
+            ],
+            "non-protected": [
+                0.015566244520817781
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "YearsCoding": "3-5 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17674.07348346438,
+        "protected_utility": 12393.55,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 12.42,
+        "protected_coverage_rate": 14.17,
+        "pvals": {
+            "all": [
+                0.04306622129661729
+            ],
+            "protected": [
+                0.08539393011560863
+            ],
+            "non-protected": [
+                0.128753972193375
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "YearsCoding": "6-8 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 18117.115707093646,
+        "protected_utility": 17727.59,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 14.42,
+        "protected_coverage_rate": 12.05,
+        "pvals": {
+            "all": [
+                0.036215856240900166
+            ],
+            "protected": [
+                0.055633523318396175
+            ],
+            "non-protected": [
+                0.1486779580776994
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "YearsCoding": "9-11 years",
+            "Gender": "Male"
+        },
+        "treatment": "{'HoursComputer': '5 - 8 hours', 'DevType': 'Back-end developer'}",
+        "utility": 31353.968491362408,
+        "protected_utility": 17987.35,
+        "unprotected_utility": 28323.66,
+        "coverage_rate": 10.76,
+        "protected_coverage_rate": 7.9,
+        "pvals": {
+            "all": [
+                0.00035414467097977617
+            ],
+            "protected": [
+                0.09212014396321924
+            ],
+            "non-protected": [
+                0.004486491048472276
+            ]
+        }
+    },
+    {
+        "condition": {
+            "RaceEthnicity": "White or of European descent",
+            "Gender": "Male",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 18280.523249830658,
+        "protected_utility": 14531.39,
+        "unprotected_utility": 16160.44,
+        "coverage_rate": 60.99,
+        "protected_coverage_rate": 38.03,
+        "pvals": {
+            "all": [
+                2.0641805027556807e-05
+            ],
+            "protected": [
+                0.0024026615174135017
+            ],
+            "non-protected": [
+                0.0007740329260020208
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years",
+            "Gender": "Male",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '3 - 4 times per week', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 28882.38839140744,
+        "protected_utility": 19141.17,
+        "unprotected_utility": 33405.27,
+        "coverage_rate": 12.46,
+        "protected_coverage_rate": 18.82,
+        "pvals": {
+            "all": [
+                0.003074583177929091
+            ],
+            "protected": [
+                0.0053858546150284846
+            ],
+            "non-protected": [
+                0.015530352320506174
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "3-5 years",
+            "RaceEthnicity": "White or of European descent",
+            "Student": "No"
+        },
+        "treatment": "{'Exercise': '1 - 2 times per week', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 31159.515381209218,
+        "protected_utility": 11890.1,
+        "unprotected_utility": 32116.03,
+        "coverage_rate": 10.02,
+        "protected_coverage_rate": 10.01,
+        "pvals": {
+            "all": [
+                0.0005443142965854939
+            ],
+            "protected": [
+                0.06519636115525831
+            ],
+            "non-protected": [
+                0.003595907770820233
+            ]
+        }
+    },
+    {
+        "condition": {
+            "YearsCoding": "6-8 years",
+            "RaceEthnicity": "White or of European descent",
+            "Student": "No"
+        },
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 13973.02211187141,
+        "protected_utility": 10505.69,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 12.59,
+        "protected_coverage_rate": 9.29,
+        "pvals": {
+            "all": [
+                0.026341847216408688
+            ],
+            "protected": [
+                0.09346356464713618
+            ],
+            "non-protected": [
+                0.1173205071638034
+            ]
+        }
+    }
+]

@@ -1,0 +1,662 @@
+[
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old', 'Student': 'No', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19282.88,
+        "protected_utility": 11314.24,
+        "unprotected_utility": 15755.08,
+        "coverage_rate": 26.5,
+        "protected_coverage_rate": 18.1,
+        "pvals": {
+            "all": [
+                0.00036478385290691364
+            ],
+            "protected": [
+                0.03255235539747684
+            ],
+            "non-protected": [
+                0.010198334301981546
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '3-5 years', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'No'}",
+        "utility": 18700.05,
+        "protected_utility": 12363.03,
+        "unprotected_utility": 26655.34,
+        "coverage_rate": 16.57,
+        "protected_coverage_rate": 23.99,
+        "pvals": {
+            "all": [
+                0.030467944927896642
+            ],
+            "protected": [
+                0.03964754019876968
+            ],
+            "non-protected": [
+                0.030627816045892788
+            ]
+        }
+    },
+    {
+        "condition": "{'Dependents': 'Yes', 'Age': '25 - 34 years old', 'SexualOrientation': 'Straight or heterosexual', 'Gender': 'Male'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17133.97,
+        "protected_utility": 9451.15,
+        "unprotected_utility": 21331.79,
+        "coverage_rate": 11.84,
+        "protected_coverage_rate": 16.71,
+        "pvals": {
+            "all": [
+                0.004488438538388809
+            ],
+            "protected": [
+                0.08291213733337315
+            ],
+            "non-protected": [
+                0.00872725334544079
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'YearsCoding': '6-8 years', 'Gender': 'Male', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 25212.48,
+        "protected_utility": 15596.43,
+        "unprotected_utility": 25530.64,
+        "coverage_rate": 11.84,
+        "protected_coverage_rate": 9.35,
+        "pvals": {
+            "all": [
+                5.67876116442668e-05
+            ],
+            "protected": [
+                0.017728498141929075
+            ],
+            "non-protected": [
+                0.000507687638294849
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'RaceEthnicity': 'White or of European descent', 'EducationParents': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Student': 'No', 'Gender': 'Male'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Master\u2019s degree (MA, MS, M.Eng., MBA, etc.)'}",
+        "utility": 19435.25,
+        "protected_utility": 15754.63,
+        "unprotected_utility": 22476.01,
+        "coverage_rate": 16.27,
+        "protected_coverage_rate": 9.56,
+        "pvals": {
+            "all": [
+                0.03404897447698999
+            ],
+            "protected": [
+                0.08899905669607835
+            ],
+            "non-protected": [
+                0.030524591797772015
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Student': 'No', 'YearsCoding': '3-5 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'No'}",
+        "utility": 25143.99,
+        "protected_utility": 11626.11,
+        "unprotected_utility": 28701.78,
+        "coverage_rate": 10.02,
+        "protected_coverage_rate": 10.01,
+        "pvals": {
+            "all": [
+                0.011608712203467889
+            ],
+            "protected": [
+                0.0816906595863755
+            ],
+            "non-protected": [
+                0.020503140694958153
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '6-8 years', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 15145.01,
+        "protected_utility": 8795.07,
+        "unprotected_utility": 21453.28,
+        "coverage_rate": 17.06,
+        "protected_coverage_rate": 18.44,
+        "pvals": {
+            "all": [
+                0.0047261956984080465
+            ],
+            "protected": [
+                0.07991838526841996
+            ],
+            "non-protected": [
+                0.0014903725686974032
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '18 - 24 years old', 'Gender': 'Male', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 12111.1,
+        "protected_utility": 9591.74,
+        "unprotected_utility": 16359.18,
+        "coverage_rate": 12.52,
+        "protected_coverage_rate": 12.49,
+        "pvals": {
+            "all": [
+                0.03520262218362589
+            ],
+            "protected": [
+                0.07025043559893382
+            ],
+            "non-protected": [
+                0.022862301763414875
+            ]
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'YearsCoding': '3-5 years', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'No'}",
+        "utility": 24570.1,
+        "protected_utility": 17576.64,
+        "unprotected_utility": 30772.93,
+        "coverage_rate": 11.56,
+        "protected_coverage_rate": 15.61,
+        "pvals": {
+            "all": [
+                0.011967196098945311
+            ],
+            "protected": [
+                0.017165022027074338
+            ],
+            "non-protected": [
+                0.021533177851146244
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old'}",
+        "treatment": "{'DevType': 'Back-end developer', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 6593.2,
+        "protected_utility": 5334.13,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 39.61,
+        "protected_coverage_rate": 31.86,
+        "pvals": {
+            "all": [
+                0.06008233356663664
+            ],
+            "protected": [
+                0.09965388199192829
+            ],
+            "non-protected": [
+                0.16804059514974462
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'RaceEthnicity': 'White or of European descent', 'YearsCoding': '6-8 years', 'Gender': 'Male', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 26392.3,
+        "protected_utility": 12111.13,
+        "unprotected_utility": 27269.09,
+        "coverage_rate": 11.04,
+        "protected_coverage_rate": 8.86,
+        "pvals": {
+            "all": [
+                7.280021022287458e-05
+            ],
+            "protected": [
+                0.05621320462765645
+            ],
+            "non-protected": [
+                0.000504388661971374
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '6-8 years', 'Gender': 'Male', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 18870.56,
+        "protected_utility": 10971.81,
+        "unprotected_utility": 17873.61,
+        "coverage_rate": 13.55,
+        "protected_coverage_rate": 11.42,
+        "pvals": {
+            "all": [
+                0.001745785779105833
+            ],
+            "protected": [
+                0.0451101983200416
+            ],
+            "non-protected": [
+                0.012663877402184795
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Age': '25 - 34 years old', 'Dependents': 'Yes'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 17755.64,
+        "protected_utility": 8814.97,
+        "unprotected_utility": 22559.6,
+        "coverage_rate": 12.37,
+        "protected_coverage_rate": 17.51,
+        "pvals": {
+            "all": [
+                0.002588284611108471
+            ],
+            "protected": [
+                0.0904802056517996
+            ],
+            "non-protected": [
+                0.004646799863897331
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Student': 'No', 'EducationParents': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Master\u2019s degree (MA, MS, M.Eng., MBA, etc.)'}",
+        "utility": 14625.91,
+        "protected_utility": 13819.96,
+        "unprotected_utility": 17845.37,
+        "coverage_rate": 18.58,
+        "protected_coverage_rate": 10.85,
+        "pvals": {
+            "all": [
+                0.08046977772423325
+            ],
+            "protected": [
+                0.08827672978695286
+            ],
+            "non-protected": [
+                0.06040512190976721
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '3-5 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'No'}",
+        "utility": 12756.55,
+        "protected_utility": 10595.75,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 19.73,
+        "protected_coverage_rate": 30.24,
+        "pvals": {
+            "all": [
+                0.09941034170142149
+            ],
+            "protected": [
+                0.03719962638228295
+            ],
+            "non-protected": [
+                0.10151257316841304
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'YearsCoding': '6-8 years', 'Dependents': 'No'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 23554.15,
+        "protected_utility": 15409.88,
+        "unprotected_utility": 23830.59,
+        "coverage_rate": 12.91,
+        "protected_coverage_rate": 9.97,
+        "pvals": {
+            "all": [
+                7.335260666830074e-05
+            ],
+            "protected": [
+                0.012795086341411948
+            ],
+            "non-protected": [
+                0.0005984891986330671
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old', 'Student': 'No', 'Gender': 'Male', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19779.82,
+        "protected_utility": 13012.39,
+        "unprotected_utility": 15445.52,
+        "coverage_rate": 22.64,
+        "protected_coverage_rate": 16.2,
+        "pvals": {
+            "all": [
+                0.0009162506919765298
+            ],
+            "protected": [
+                0.025719063059825603
+            ],
+            "non-protected": [
+                0.02319402385188356
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '6-8 years', 'Gender': 'Male'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 10929.96,
+        "protected_utility": 8973.9,
+        "unprotected_utility": 16425.91,
+        "coverage_rate": 19.53,
+        "protected_coverage_rate": 23.96,
+        "pvals": {
+            "all": [
+                0.027791925699592084
+            ],
+            "protected": [
+                0.035559738626872374
+            ],
+            "non-protected": [
+                0.011524907504839954
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '18 - 24 years old', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)'}",
+        "utility": 9572.63,
+        "protected_utility": 8539.65,
+        "unprotected_utility": 13395.05,
+        "coverage_rate": 13.64,
+        "protected_coverage_rate": 13.39,
+        "pvals": {
+            "all": [
+                0.08395509776470206
+            ],
+            "protected": [
+                0.08921829862965545
+            ],
+            "non-protected": [
+                0.052528935616108635
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Age': '25 - 34 years old', 'Dependents': 'No', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'DevType': 'Back-end developer', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 7732.89,
+        "protected_utility": 8023.25,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 27.71,
+        "protected_coverage_rate": 21.49,
+        "pvals": {
+            "all": [
+                0.08053978849572264
+            ],
+            "protected": [
+                0.04468535501932048
+            ],
+            "non-protected": [
+                0.19714165157506372
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '6-8 years', 'Dependents': 'No', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 25195.63,
+        "protected_utility": 12137.51,
+        "unprotected_utility": 26149.62,
+        "coverage_rate": 11.75,
+        "protected_coverage_rate": 9.35,
+        "pvals": {
+            "all": [
+                8.25331186922305e-05
+            ],
+            "protected": [
+                0.04426377966245121
+            ],
+            "non-protected": [
+                0.0005176373840065377
+            ]
+        }
+    },
+    {
+        "condition": "{'Student': 'No', 'YearsCoding': '3-5 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'No'}",
+        "utility": 17420.33,
+        "protected_utility": 13743.47,
+        "unprotected_utility": 22279.55,
+        "coverage_rate": 14.09,
+        "protected_coverage_rate": 20.26,
+        "pvals": {
+            "all": [
+                0.04385305900274433
+            ],
+            "protected": [
+                0.02480147592694695
+            ],
+            "non-protected": [
+                0.06651845991699681
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'YearsCoding': '6-8 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 16391.74,
+        "protected_utility": 12617.52,
+        "unprotected_utility": 15255.11,
+        "coverage_rate": 15.64,
+        "protected_coverage_rate": 12.76,
+        "pvals": {
+            "all": [
+                0.0027020623260848365
+            ],
+            "protected": [
+                0.018166449668816944
+            ],
+            "non-protected": [
+                0.01807289158666103
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Student': 'No', 'EducationParents': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Gender': 'Male'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Master\u2019s degree (MA, MS, M.Eng., MBA, etc.)'}",
+        "utility": 18300.73,
+        "protected_utility": 14660.91,
+        "unprotected_utility": 21892.7,
+        "coverage_rate": 17.18,
+        "protected_coverage_rate": 10.03,
+        "pvals": {
+            "all": [
+                0.037558705140759784
+            ],
+            "protected": [
+                0.09443290862243121
+            ],
+            "non-protected": [
+                0.028349132391997173
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Student': 'No', 'EducationParents': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Master\u2019s degree (MA, MS, M.Eng., MBA, etc.)'}",
+        "utility": 16767.34,
+        "protected_utility": 14778.32,
+        "unprotected_utility": 19603.84,
+        "coverage_rate": 17.29,
+        "protected_coverage_rate": 10.29,
+        "pvals": {
+            "all": [
+                0.05373771726750626
+            ],
+            "protected": [
+                0.08562592499678806
+            ],
+            "non-protected": [
+                0.047013397510068014
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '6-8 years', 'Gender': 'Male'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 12128.36,
+        "protected_utility": 8877.25,
+        "unprotected_utility": 18257.76,
+        "coverage_rate": 18.38,
+        "protected_coverage_rate": 22.68,
+        "pvals": {
+            "all": [
+                0.0193639036409752
+            ],
+            "protected": [
+                0.02951619555829399
+            ],
+            "non-protected": [
+                0.007485630043337373
+            ]
+        }
+    },
+    {
+        "condition": "{'YearsCoding': '6-8 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 9079.59,
+        "protected_utility": 8093.2,
+        "unprotected_utility": 14100.9,
+        "coverage_rate": 21.17,
+        "protected_coverage_rate": 25.25,
+        "pvals": {
+            "all": [
+                0.0576428059692771
+            ],
+            "protected": [
+                0.052140304988498
+            ],
+            "non-protected": [
+                0.023064126282433588
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old', 'Student': 'No', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 19685.84,
+        "protected_utility": 12552.53,
+        "unprotected_utility": 15757.48,
+        "coverage_rate": 24.2,
+        "protected_coverage_rate": 17.16,
+        "pvals": {
+            "all": [
+                0.0006600632859385789
+            ],
+            "protected": [
+                0.02357575925893936
+            ],
+            "non-protected": [
+                0.016764105923027052
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'Age': '25 - 34 years old', 'Dependents': 'No'}",
+        "treatment": "{'DevType': 'Back-end developer', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 7364.32,
+        "protected_utility": 7309.05,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 30.32,
+        "protected_coverage_rate": 22.63,
+        "pvals": {
+            "all": [
+                0.07498222876893554
+            ],
+            "protected": [
+                0.05537293162456002
+            ],
+            "non-protected": [
+                0.1823255406160237
+            ]
+        }
+    },
+    {
+        "condition": "{'RaceEthnicity': 'White or of European descent', 'YearsCoding': '6-8 years', 'Gender': 'Male'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 17800.93,
+        "protected_utility": 12682.04,
+        "unprotected_utility": 16687.11,
+        "coverage_rate": 14.42,
+        "protected_coverage_rate": 12.05,
+        "pvals": {
+            "all": [
+                0.0018285985887064448
+            ],
+            "protected": [
+                0.024426483285669785
+            ],
+            "non-protected": [
+                0.013711204031498902
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '6-8 years'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 10192.99,
+        "protected_utility": 7923.17,
+        "unprotected_utility": 16038.59,
+        "coverage_rate": 19.52,
+        "protected_coverage_rate": 23.72,
+        "pvals": {
+            "all": [
+                0.044179553194555604
+            ],
+            "protected": [
+                0.049612356449367054
+            ],
+            "non-protected": [
+                0.015616525273891404
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'YearsCoding': '6-8 years', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'FormalEducation': 'Bachelor\u2019s degree (BA, BS, B.Eng., etc.)', 'Hobby': 'Yes'}",
+        "utility": 17337.08,
+        "protected_utility": 10986.68,
+        "unprotected_utility": 16320.25,
+        "coverage_rate": 14.38,
+        "protected_coverage_rate": 11.99,
+        "pvals": {
+            "all": [
+                0.0029900810587936487
+            ],
+            "protected": [
+                0.03572077221460394
+            ],
+            "non-protected": [
+                0.018610803994650028
+            ]
+        }
+    },
+    {
+        "condition": "{'SexualOrientation': 'Straight or heterosexual', 'Age': '25 - 34 years old', 'RaceEthnicity': 'White or of European descent'}",
+        "treatment": "{'DevType': 'Back-end developer', 'UndergradMajor': 'Computer science, computer engineering, or software engineering'}",
+        "utility": 6785.4,
+        "protected_utility": 5820.87,
+        "unprotected_utility": 0.0,
+        "coverage_rate": 36.72,
+        "protected_coverage_rate": 30.35,
+        "pvals": {
+            "all": [
+                0.06699146340190668
+            ],
+            "protected": [
+                0.08450339265043116
+            ],
+            "non-protected": [
+                0.1933947324892593
+            ]
+        }
+    }
+]
