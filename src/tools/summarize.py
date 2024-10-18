@@ -224,7 +224,7 @@ Group coverage (90\\%) & {t[7]}\\\\
     )
 
 
-output_path = "/Users/bcyl/FairPrescriptionRules/output/so_gdp/so_coverage_analysis"
+output_path = "/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp/so_coverage_analysis"
 
 print_so_cvrg(output_path)
 
@@ -296,7 +296,7 @@ print_gc_cvrg(output_path)
 
 
 # %%
-print_table("/Users/bcyl/FairPrescriptionRules/output/so_gdp/so_full")
+print_table("/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp/so_full")
 # %%
 
 
@@ -366,7 +366,7 @@ Individual SP (20000) & {t[7]}\\\\
     )
 
 
-output_path = "/Users/bcyl/FairPrescriptionRules/output/so_gdp/so_fairness_analysis"
+output_path = "/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp/so_fairness_analysis"
 
 print_so_fair(output_path)
 
@@ -509,7 +509,7 @@ def execTimeVsSize(path):
 
 # Define output path
 # Path should include full, triquarter, half, and quarter sized dateset
-output_path = "/Users/bcyl/FairPrescriptionRules/output/so_gdp_new"
+output_path = "/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp"
 # Analyze effect of dataset size on execution time
 execTimeVsSize(output_path)
 # %%
@@ -556,7 +556,7 @@ fig, (ax1, ax2) = plt.subplots(1, 2, sharey=True, figsize=(12, 6), tight_layout=
 ax1.set_ylabel("Total Execution Time (Seconds)")
 fig.supxlabel("Number of attributes")
 
-output_path = "/Users/bcyl/FairPrescriptionRules/output/so_gdp/so_attrM_analysis"
+output_path = "/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp/so_attrM_analysis"
 sizes = [
     "10 imm\n2 mut",
     "10 imm\n3 mut",
@@ -566,7 +566,7 @@ sizes = [
 ]
 execTimeVsNumAttr(output_path, sizes, "mutable", ax1)
 
-output_path = "/Users/bcyl/FairPrescriptionRules/output/so_gdp/so_attrI_analysis"
+output_path = "/Users/bcyl/FairPrescriptionRules/sample_output/so_gdp/so_attrI_analysis"
 sizes = [
     "5 imm\n6 mut",
     "6 imm\n6 mut",
