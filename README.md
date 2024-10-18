@@ -51,18 +51,18 @@ Under the `FairPrescriptionRules/output/Local\ Sanity\ Test/greedy` directory, t
 Step 0. Get a [CloudLab](https://docs.cloudlab.us/getting-started.html) account for free
 Step 1. Set up remote servers 
 1. Instiantiate an experiment (https://www.cloudlab.us/instantiate.php)
-2. Select the `causal` profile   
+2. Select the `causal` profile     
    <img width="600" alt="image" src="https://github.com/user-attachments/assets/ea7b7dd6-4d03-4bdb-9364-34042bf1339b">
 3. Specify the number of nodes needed. For example, to run 9 variants of FariCap in parallel, you need 9 nodes.
-   Then Select the `urn:publicid:IDN+utah.cloudlab.us+image+fair-prescrip-PG0:causal` image, which is an Ubuntu image that has all the required packages installed   
-   <img width="600" alt="image" src="https://github.com/user-attachments/assets/3fccb68b-0e52-4d78-b717-3cfc093d9674">   
-   Then select the machine. We recommend xl170 in Utah cluster. You can also use m510 or cl6525-25g machines in Utah
-   <img width="600" alt="image" src="https://github.com/user-attachments/assets/f8a9f906-64c3-4ace-a6fc-c7b2c932740a">    
-   Then choose an experiment name. For simplicy, use `remote` as experiment name as shown in the example configuration. You need to change the configuration accoridngly.  
-   <img width="600" alt="image" src="https://github.com/user-attachments/assets/d1076d6f-87e6-4a6f-8f4f-caa5605197a2">
-   Finally, specified the length of your experiment (e.g. 1 hour is sufficient for running the full stackoverflow dataset with constraints)
-   <img width="600" alt="image" src="https://github.com/user-attachments/assets/28aaa261-7aa4-4c2d-9bab-d167597d3e85">   
-   When all the nodes are ready, experiments are ready to run     
+   Then Select the `urn:publicid:IDN+utah.cloudlab.us+image+fair-prescrip-PG0:causal` image, which is an Ubuntu image that has all the required packages installed      
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/3fccb68b-0e52-4d78-b717-3cfc093d9674">      
+   Then select the machine. We recommend xl170 in Utah cluster. You can also use m510 or cl6525-25g machines in Utah   
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/f8a9f906-64c3-4ace-a6fc-c7b2c932740a">        
+   Then choose an experiment name. For simplicy, use `remote` as the experiment name as shown in the example configuration. You need to change the configuration accordingly.      
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/d1076d6f-87e6-4a6f-8f4f-caa5605197a2">     
+   Finally, specify the length of your experiment (e.g. 1 hour is sufficient for running the full Stackoverflow dataset with constraints)    
+   <img width="600" alt="image" src="https://github.com/user-attachments/assets/28aaa261-7aa4-4c2d-9bab-d167597d3e85">     
+   When all the nodes are ready, experiments are ready to run       
    <img width="600" alt="image" src="https://github.com/user-attachments/assets/91f106d5-597c-4bde-8bae-9264bec85465">   
 
 4. (Optional). Run the sanity test to verify the result
