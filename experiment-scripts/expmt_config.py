@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 # Location of config.py
-REPO_NAME = "FairPrescriptionRules"
+REPO_NAME = "FairCAP"
 PROJECT_PATH = Path(__file__).parent.parent
 CONFIG_PATH = os.path.join(Path(__file__).parent, "experiment-configs")
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
@@ -23,7 +23,7 @@ CLOUDLAB_HOST_SUFFIX = "pg0.utah.cloudlab.us"
 class Config:
     def __init__(self, algo_name, start_script, node_name):
         self.algo_name = algo_name
-        self.start_script = "python3 FairPrescriptionRules/%s" % (start_script)
+        self.start_script = "python3 FairCAP/%s" % (start_script)
         self.remote_hostname = "%s.%s.%s-%s" % (
             node_name,
             CLOUDLAB_EXPERIMENT_NAME,

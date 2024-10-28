@@ -197,7 +197,7 @@ def run_algorithm(config):
     )
 
     # TODO embed env into cloudlab
-    algorithm_cmd = "python3 FairPrescriptionRules/src/baselines/{} {} {}".format(
+    algorithm_cmd = "python3 FairCAP/src/baselines/{} {} {}".format(
         config["_model"]["_start"], arg_flag, output_flag
     )
 

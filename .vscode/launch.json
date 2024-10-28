@@ -16,7 +16,7 @@
             "name": "Python: Test GO ",
             "type": "python",
             "request": "launch",
-            "program": "~/FairPrescriptionRules/experiment-scripts/run_experiment.py",
+            "program": "~/FairCAP/experiment-scripts/run_experiment.py",
             "console": "integratedTerminal",
             "args": [
                 "stackoverflow/500.json",

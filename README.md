@@ -5,8 +5,8 @@ In this project, we implement a 3-step algorithms that generate prescriptions(ru
 ## Setup <a name="setup"></a>
 1. Clone this repository:
 ```
-git clone https://github.com/USERNAME/FairPrescriptionRules
-cd FairPrescriptionRules
+git clone https://github.com/USERNAME/FairCAP
+cd FairCAP
 ```
 You can run the algorithm either locally or **remotely(recommended)**
 ### Local Setup (Skip to Remote setup if you wish to run the experiment on cloudlab)
@@ -42,7 +42,7 @@ Elapsed time for group mining: 0.0587611198425293 seconds. 3 groups are found
 Elapsed time for treatment mining: 10.959924936294556 seconds. 3 rules are found
 Elapsed time for Selection: 0.38343214988708496 seconds
 ```
-Under the `FairPrescriptionRules/output/Local\ Sanity\ Test/greedy` directory, the following files can be found:
+Under the `FairCAP/output/Local\ Sanity\ Test/greedy` directory, the following files can be found:
 - selected_rules.json: rules generated from treatment mining
 - mined_rules.json: rules selected by greedy algorithm
 - experiment_results_greedy.csv: information inlcluding expected utilty, coverage and fairness during the selection process
@@ -77,7 +77,7 @@ logs.tar                                                                    100%
 0
 DONE
 ```
-In the `FairPrescriptionRules/output/greedy` directory, the following files can be found: 
+In the `FairCAP/output/greedy` directory, the following files can be found: 
 - `experiment_results_greedy.csv`
 - `mined_rules.json`
 - `selected_rules.json`
@@ -111,12 +111,12 @@ To run the experiment, we need both **data configuration** and **experiment conf
 3. `_coverage_constraint` (optional): contains name of the variant (group or rule), threshold, and protected threshold
 3. `_fairness_constraint` (optional): contains name of the variant (group_sp, individual_sp, grouo_bgl, individual_bgl) and threshold
 
-See examples of configuration [here](https://github.com/USERNAME/FairPrescriptionRules/tree/master/experiment-scripts/experiment-configs/sanity)
+See examples of configuration [here](https://github.com/USERNAME/FairCAP/tree/master/experiment-scripts/experiment-configs/sanity)
 ## Running the Algorithms
 
 Locate to the script directory
 ```
-cd FairPrescriptionRules/experiment-scripts
+cd FairCAP/experiment-scripts
 ```
 Then run `run_experiment.py` in the following semantics:  
 ```
@@ -125,7 +125,7 @@ python run_experiment.py PATH_TO_DATA_CONFIGURATION PATH_TO_EXPERIMENT_CONFIGURA
 See the section above regarding the specification of data configuration and experiment configuration
 ### To reproduce the result from the paper
 ```
-cd FairPrescriptionRules/reproducibility
+cd FairCAP/reproducibility
 ```
 And execute the corresponding script
 e.g. `sh stackoverflow/so_full.sh`
@@ -143,12 +143,12 @@ Output can be found in the output path specified in the configuration. For each 
 We recommend using CloudLab remote servers. The following guide is based on remote experiment
 To run all 9 possible fairness and coverage variants on stackoverflow:
 ```
-cd FairPrescriptionRules/experiment-scripts/reproducibility
+cd FairCAP/experiment-scripts/reproducibility
 sh stackoverflow/so_full.sh
 ```
 You can also customize 
-- Thresholds and variants in `FairPrescriptionRules/experiment-scripts/experiment-configs/so/remote_full.json`
-- Mutable, immutbale, target attributes, protected attributes or protected value in `FairPrescriptionRules/data/stackoverflow/config_full.json`
-- DAG defined in `FairPrescriptionRules/data/stackoverflow/so.dot`
+- Thresholds and variants in `FairCAP/experiment-scripts/experiment-configs/so/remote_full.json`
+- Mutable, immutbale, target attributes, protected attributes or protected value in `FairCAP/data/stackoverflow/config_full.json`
+- DAG defined in `FairCAP/data/stackoverflow/so.dot`
 
 
