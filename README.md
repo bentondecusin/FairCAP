@@ -140,7 +140,7 @@ Output can be found in the output path specified in the configuration. For each 
 - `stdout.log`: output including execution time break down, number of groupings and number of mined treatments
 
 ## Result replicaiton 
-We recommend using CloudLab remote servers. The following guide is based on remote experiment
+We recommend using CloudLab remote servers. The following guide is based on remote experiment     
 To run all 9 possible fairness and coverage variants on stackoverflow:
 ```
 cd FairCAP/experiment-scripts/reproducibility
