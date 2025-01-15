@@ -55,10 +55,5 @@ digraph SO_PC_CHISQ_DAG {
 	Dependents -> Age;
 	Dependents -> ConvertedSalary;
 	Age -> Hobby;
-	ConvertedSalary -> Student;
-	ConvertedSalary -> UndergradMajor;
-	ConvertedSalary -> DevType;
-	ConvertedSalary -> EducationParents;
-	ConvertedSalary -> Age;
 	GDP;
 }
