@@ -1,4 +1,4 @@
-strict digraph "" {
+digraph SO_PC_CHISQ_DAG {
 	graph [bb="0,0,0,0"];
 	node [label="\N"];
 	Country -> Continent;
