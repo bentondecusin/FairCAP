@@ -13,16 +13,15 @@ digraph SO_PC_CHISQ_DAG {
 	FormalEducation -> Age;
 	FormalEducation -> ConvertedSalary;
 	UndergradMajor -> FormalEducation;
+	UndergradMajor -> DevType;
 	UndergradMajor -> YearsCoding;
+	UndergradMajor -> EducationParents;
 	UndergradMajor -> Age;
 	DevType -> Student;
 	DevType -> FormalEducation;
-	DevType -> UndergradMajor;
 	DevType -> YearsCoding;
 	DevType -> HoursComputer;
-	DevType -> Gender;
 	DevType -> Age;
-	DevType -> ConvertedSalary;
 	YearsCoding -> Country;
 	YearsCoding -> Age;
 	YearsCoding -> ConvertedSalary;
@@ -38,11 +37,10 @@ digraph SO_PC_CHISQ_DAG {
 	Exercise -> ConvertedSalary;
 	Gender -> Hobby;
 	Gender -> UndergradMajor;
+	Gender -> DevType;
 	SexualOrientation -> Gender;
-	SexualOrientation -> Dependents;
 	EducationParents -> Country;
 	EducationParents -> FormalEducation;
-	EducationParents -> UndergradMajor;
 	EducationParents -> YearsCoding;
 	EducationParents -> Age;
 	RaceEthnicity -> Country;
@@ -53,12 +51,14 @@ digraph SO_PC_CHISQ_DAG {
 	Dependents -> FormalEducation;
 	Dependents -> YearsCoding;
 	Dependents -> HoursComputer;
+	Dependents -> EducationParents;
+	Dependents -> Age;
+	Dependents -> ConvertedSalary;
 	Age -> Hobby;
-	Age -> Dependents;
 	ConvertedSalary -> Student;
 	ConvertedSalary -> UndergradMajor;
+	ConvertedSalary -> DevType;
 	ConvertedSalary -> EducationParents;
-	ConvertedSalary -> Dependents;
 	ConvertedSalary -> Age;
 	GDP;
 }
