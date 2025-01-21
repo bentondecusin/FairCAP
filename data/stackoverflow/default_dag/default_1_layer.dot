@@ -2,7 +2,6 @@ digraph SO_ALL_NODE_DAG {
 	graph [bb="0,0,0,0"];
 	node [label="\N"];
 	Hobby -> ConvertedSalary;
-	ConvertedSalary -> ConvertedSalary;
 	Country -> ConvertedSalary;
 	Student -> ConvertedSalary;
 	FormalEducation -> ConvertedSalary;
