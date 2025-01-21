@@ -1,0 +1,24 @@
+strict digraph GC_DEFAUL_1LAYER_DAG {
+	graph [bb="0,0,0,0"];
+	node [label="\N"];
+	age_binned -> credit_risk;
+	personal_status_sex -> credit_risk;
+	foreign_worker -> credit_risk;
+	credit_history -> credit_risk;
+	employment_duration -> credit_risk;
+	property -> credit_risk;
+	installment_rate -> credit_risk;
+	purpose -> credit_risk;
+	people_liable -> credit_risk;
+	duration_binned -> credit_risk;
+	amount_binned -> credit_risk;
+	status -> credit_risk;
+	savings -> credit_risk;
+	other_debtors -> credit_risk;
+	present_residence -> credit_risk;
+	other_installment_plans -> credit_risk;
+	housing -> credit_risk;
+	number_credits -> credit_risk;
+	job -> credit_risk;
+	telephone -> credit_risk;
+}
