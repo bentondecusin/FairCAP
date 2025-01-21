@@ -17,7 +17,7 @@
     "node7",
     "node8"
   ],
-  "_expmt_title": "GC_all",
+  "_expmt_title": "gc_all",
   "_models": [
     {
       "_name": "greedy_no_constraint",
