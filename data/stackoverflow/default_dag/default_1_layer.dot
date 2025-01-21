@@ -1,0 +1,24 @@
+digraph SO_ALL_NODE_DAG {
+	graph [bb="0,0,0,0"];
+	node [label="\N"];
+	Hobby -> ConvertedSalary;
+	ConvertedSalary -> ConvertedSalary;
+	Country -> ConvertedSalary;
+	Student -> ConvertedSalary;
+	FormalEducation -> ConvertedSalary;
+	UndergradMajor -> ConvertedSalary;
+	DevType -> ConvertedSalary;
+	YearsCoding -> ConvertedSalary;
+	HoursComputer -> ConvertedSalary;
+	Exercise -> ConvertedSalary;
+	Gender -> ConvertedSalary;
+	SexualOrientation -> ConvertedSalary;
+	EducationParents -> ConvertedSalary;
+	RaceEthnicity -> ConvertedSalary;
+	Dependents -> ConvertedSalary;
+	Continent -> ConvertedSalary;
+	Age -> ConvertedSalary;
+	HDI -> ConvertedSalary;
+	GDP -> ConvertedSalary;
+	GINI -> ConvertedSalary;
+}
