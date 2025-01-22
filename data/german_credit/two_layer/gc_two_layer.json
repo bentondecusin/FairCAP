@@ -1,7 +1,7 @@
 {
   "_dataset_path": "german_credit",
   "_datatable_path": "german_credit_data_binned_output.csv",
-  "_dag_path": "two_layer/two_layer.dot",
+  "_dag_path": "two_layer/gc_two_layer.dot",
   "_immutable_attributes": [
     "age_binned",
     "personal_status_sex",
