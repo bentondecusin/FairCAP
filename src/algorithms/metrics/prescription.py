@@ -2,6 +2,8 @@ import copy
 from re import L
 from typing import Dict, List, Set
 
+from numpy import astype
+
 
 class Prescription:
     """
@@ -141,13 +143,13 @@ class PrescriptionList:
         return exp_utility, exp_utility_u, exp_utility_p
 
     def getExpectedUtility(self):
-        return round(self.expected_utility, 2)
+        return round(self.expected_utility.item(), 2)
 
     def getProtectedExpectedUtility(self):
-        return round(self.expected_utility_p, 2)
+        return round(self.expected_utility_p.item(), 2)
 
     def getUnrotectedExpectedUtility(self):
-        return round(self.expected_utility_u, 2)
+        return round(self.expected_utility_u.item(), 2)
 
     def getCoveredIdx(self):
         return self.covered_idx

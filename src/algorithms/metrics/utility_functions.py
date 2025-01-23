@@ -85,7 +85,6 @@ def CATE(df_g, DAG_str, treatments, attrOrdinal, tgtO):
             test_significance=True,
         )
     ATE = causal_estm_reg.value
-
     p_value = causal_estm_reg.test_stat_significance()["p_value"]
     if ATE == 0:
         logging.debug(f"Treatment: {treatments}, ATE: {ATE}")
