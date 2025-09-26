@@ -1,5 +1,5 @@
-# Greedy Fair Prescription Rules Algorithm
-In this project, we implement a 3-step algorithm that generates prescriptions(rules) to increase/decrease the value of an attribute. Meanwhile, we can protect a specified group by setting a minimum coverage of each rule or a rule set. We can also protect this group by capping the gap between the benefits that the protected and non-protected groups get. The algorithm can be broken down into 3 steps: group mining, treatment mining, and rule selection. The details can be found in the [paper]()
+# Greedy Fair Prescription Rules Algorithm (SIGMOD 2025 Artifact)
+In this paper, we implement a 3-step algorithm that generates prescriptions(rules) to increase/decrease the value of an attribute. Meanwhile, we can protect a specified group by setting a minimum coverage of each rule or a rule set. We can also protect this group by capping the gap between the benefits that the protected and non-protected groups get. The algorithm can be broken down into 3 steps: group mining, treatment mining, and rule selection. The details can be found in the [paper](https://dl.acm.org/doi/abs/10.1145/3725293)
 
 
 ## Setup <a name="setup"></a>
